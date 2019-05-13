@@ -4,16 +4,14 @@
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
 
 
-이 책은 세바스찬 라시카(Sebastian Raschka)와 바히드 미자리리(Vahid Mirjalili)이 쓴 아마존 베스트 셀러 "[Python Machine Learning](https://www.amazon.com/Python-Machine-Learning-scikit-learn-TensorFlow-ebook/dp/B0742K7HYF/)"의 번역서입니다.
-
-번역서에 관한 궁금한 점이나 오류가 있다면 깃허브에 이슈를 남겨 주시거나 [블로그](https://bit.ly/2Hn88ZM)를 통해 알려 주세요.
+이 책은 세바스찬 라시카(Sebastian Raschka)와 바히드 미자리리(Vahid Mirjalili)이 쓴 아마존 베스트 셀러 "[Python Machine Learning 2/E](https://www.amazon.com/Python-Machine-Learning-scikit-learn-TensorFlow-ebook/dp/B0742K7HYF/)"의 번역서입니다.
 
 ## 참고 사항
-• 책의 모든 예제 코드는 파이썬 3.7, 사이킷런 0.2x, 텐서플로 2.0을 기준으로 합니다.
-• 우분투와 윈도에서 파이썬 3.7, 사이킷런 0.2x, 텐서플로 2.0으로 테스트했습니다.
-• 책의 예제 코드는 주피터 노트북으로 제공됩니다.
-• 각 장의 코드는 ch02, ch03처럼 하위 폴더로 구분되어 있습니다.
-• 각 장에서 필요한 예제 데이터셋도 코드와 함께 폴더에 담겨 있습니다.
+- 책의 모든 예제 코드는 파이썬 3.7, 사이킷런 0.2x, 텐서플로 2.0을 기준으로 합니다.
+- 우분투와 윈도에서 파이썬 3.7, 사이킷런 0.2x, 텐서플로 2.0으로 테스트했습니다.
+- 책의 예제 코드는 주피터 노트북으로 제공됩니다.
+- 각 장의 코드는 ch02, ch03처럼 하위 폴더로 구분되어 있습니다.
+- 각 장에서 필요한 예제 데이터셋도 코드와 함께 폴더에 담겨 있습니다.
 
 ## 목차와 주피터 노트북
 
@@ -64,5 +62,7 @@
 
 ### 소스 코드의 실시간 업데이트는 역자분의 깃허브와 블로그를 참고해주세요.
 
-깃허브 : https://github.com/rickiepark/python-machine-learning-book-2nd-edition
-블로그 : https://tensorflow.blog/
+- 깃허브 : https://github.com/rickiepark/python-machine-learning-book-2nd-edition
+- 블로그 : https://tensorflow.blog/
+
+- 번역서에 관한 궁금한 점이나 오류가 있다면 길벗출판사의 독자 문의나 역자분의 [블로그](https://bit.ly/2Hn88ZM)를 통해 알려 주세요.
