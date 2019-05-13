@@ -7,8 +7,8 @@
 이 책은 세바스찬 라시카(Sebastian Raschka)와 바히드 미자리리(Vahid Mirjalili)이 쓴 아마존 베스트 셀러 "[Python Machine Learning 2/E](https://www.amazon.com/Python-Machine-Learning-scikit-learn-TensorFlow-ebook/dp/B0742K7HYF/)"의 번역서입니다.
 
 ## 참고 사항
-- 책의 모든 예제 코드는 파이썬 3.7, 사이킷런 0.2x, 텐서플로 2.0을 기준으로 합니다.
-- 우분투와 윈도에서 파이썬 3.7, 사이킷런 0.2x, 텐서플로 2.0으로 테스트했습니다.
+- 책의 모든 예제 코드는 파이썬 3.7, 사이킷런 0.2x, 텐서플로 2.0을 기준으로 합니다.(2019년 5월)
+- 우분투와 윈도에서 파이썬 3.7, 사이킷런 0.2x, 텐서플로 2.0으로 테스트했습니다.(2019년 5월)
 - 책의 예제 코드는 주피터 노트북으로 제공됩니다.
 - 각 장의 코드는 ch02, ch03처럼 하위 폴더로 구분되어 있습니다.
 - 각 장에서 필요한 예제 데이터셋도 코드와 함께 폴더에 담겨 있습니다.
@@ -17,7 +17,7 @@
 
 **설치와 설정에 대한 도움말은 [INSTALL.md 파일](INSTALL.md)을 참고하세요.**
 
-`open_dir` 링크를 클릭하면 [code/](code/) 서브디렉토리 아래에 있는 각 장의 폴더로 이동합니다. 또는 `ipynb` 링크를 클릭해서 바로 주피터 노트북을 열어 볼 수 있습니다. `nbviewer`는 주피터의 노트북 뷰어로 볼 수 있는 링크입니다. `colab`은 구글 코랩(Colab)에서 노트북을 실행할 수 있는 링크입니다.
+`open_dir` 링크를 클릭하면 [code/](code/) 서브디렉터리 아래에 있는 각 장의 폴더로 이동합니다. 또는 `ipynb` 링크를 클릭해서 바로 주피터 노트북을 열어 볼 수 있습니다. `nbviewer`는 주피터의 노트북 뷰어로 볼 수 있는 링크입니다. `colab`은 구글 코랩(Colab)에서 노트북을 실행할 수 있는 링크입니다.
 
 2. 간단한 분류 알고리즘 훈련 [[open dir](./code/ch02)] [[ipynb](./code/ch02/ch02.ipynb)] [[nbviewer](https://nbviewer.jupyter.org/github/rickiepark/python-machine-learning-book-2nd-edition/blob/master/code/ch02/ch02.ipynb)] [[colab](https://colab.research.google.com/github/rickiepark/python-machine-learning-book-2nd-edition/blob/master/code/ch02/ch02.ipynb)]
 3. 사이킷런을 타고 떠나는 머신 러닝 분류 모델 투어 [[open dir](./code/ch03)] [[ipynb](./code/ch03/ch03.ipynb)] [[nbviewer](https://nbviewer.jupyter.org/github/rickiepark/python-machine-learning-book-2nd-edition/blob/master/code/ch03/ch03.ipynb)] [[colab](https://colab.research.google.com/github/rickiepark/python-machine-learning-book-2nd-edition/blob/master/code/ch03/ch03.ipynb)]
@@ -44,7 +44,7 @@
 - `movieclassifier/`: 웹 애플리케이션에 내장한 영화 리뷰 분류기
 - `movieclassifier_with_update/`: `movieclassifier`와 동일하지만 sqlite 데이터베이스에서 업데이트하는 버전
 
-웹 애플리케이션을 실행하려면 각 디렉토리로 이동한 후에 메인 애플리케이션 스크립트를 실행합니다.
+웹 애플리케이션을 실행하려면 각 디렉터리로 이동한 후에 메인 애플리케이션 스크립트를 실행합니다.
 
     cd ./1st_flask_app_1
     python3 app.py
