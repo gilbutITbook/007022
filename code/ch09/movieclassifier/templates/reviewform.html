@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <title>영화 분류</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+
+<h2>영화에 대한 리뷰를 써 주세요:</h2>
+
+{% from "_formhelpers.html" import render_field %}
+
+<form method=post action="/results">
+  <dl>
+	{{ render_field(form.moviereview, cols='30', rows='10') }}
+  </dl>
+  <div>
+	  <input type=submit value='리뷰 입력' name='submit_btn'>
+  </div>
+</form>
+
+  </body>
+</html>

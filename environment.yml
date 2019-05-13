@@ -1,0 +1,19 @@
+name: python-ml
+dependencies:
+- python=3.7
+- numpy
+- scikit-learn
+- pandas
+- matplotlib
+- jupyter
+- cython
+- nltk
+- flask
+- wtforms
+- seaborn
+- pydot
+- imageio
+- pip:
+  - tensorflow==2.0.0.a0
+  - watermark  
+  - pyprind

@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>영화 분류</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+
+<h3>입력한 영화 리뷰:</h3>
+<div>{{ content }}</div>
+
+<h3>Prediction:</h3>
+<div>이 영화 리뷰는 <strong>{{ prediction == 'positive' and '긍정' or '부정' }}</strong>적입니다.
+	 (확률: {{ probability }}%).</div>
+
+<div id='button'>
+	  <form action="/thanks" method="post">
+	    <input type=submit value='맞음' name='feedback_button'>
+		<input type=submit value='틀림' name='feedback_button'>
+		<input type=hidden value='{{ prediction }}' name='prediction'>
+		<input type=hidden value='{{ content }}' name='review'>
+	  </form>
+</div>
+
+<div id='button'>
+	  <form action="/">
+	    <input type=submit value='리뷰 추가 입력'>
+	  </form>
+</div>
+
+  </body>
+</html>
